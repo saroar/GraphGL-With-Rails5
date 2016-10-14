@@ -7,9 +7,11 @@ Shows an implementation of GraphQL via [graphql-ruby](https://github.com/rmosolg
 - Queries are served by [`queries#create`](https://github.com/saroar/GraphGL-With-Rails5/blob/master/app/controllers/queries_controller.rb).
 - GraphiQL IDE is served by [graphiql-rails](https://github.com/rmosolgo/graphiql-rails)
 
-# How to Query
-# Press the run button above, or Cmd-Enter to execute the query, and the result
-# will appear in the pane to the right.
+## How to Query 
+Press the run button above, or Cmd-Enter to execute the query, and the result
+will appear in the pane to the right.
+
+### Query
 
 query {
   blog(id: 3) {
@@ -21,7 +23,7 @@ query {
   }
 }
 
-#result
+### Result
 
 {
   "data": {
