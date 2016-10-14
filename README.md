@@ -1,4 +1,4 @@
-## graphql-ruby-demo
+## Rails Graphql Ruby5 Demo
 Shows an implementation of GraphQL via [graphql-ruby](https://github.com/rmosolgo/graphql-ruby).
 
 
